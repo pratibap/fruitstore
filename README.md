@@ -21,6 +21,5 @@ Requirements:
         5. confirm purchase button that clears out the cart.
           - when confirming the purchase, update the quantity values in the list of items (optional).
 
-Let us see your awesome store!:
-  Once complete, please send a github link or your project files to tianyi@insticator.com
+Let us see your awesome store!
 
