@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fruit!</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs">
+          <h1><span>Fruit</span></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-9" id="fruits">
+          <div class="row"></div>
+        </div>
+        <div class="col-xs-3" id="cart">
+          <h3>Shopping Cart</h3>
+          <p id="items"><span>0</span> items</p>
+          <br>
+          <p id="total">Total: $<span>0</span></p>
+          <a href="javascript:void(0);" id="empty">Empty Cart</a><br>
+          <button id="confirm">Confirm Purchase</button>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

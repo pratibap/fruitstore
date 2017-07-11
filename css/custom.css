@@ -1,0 +1,95 @@
+h1 {
+  border-bottom: 5px solid #32c996; }
+  h1 span {
+    background-color: #32c996;
+    color: white;
+    padding: 5px 50px 0 50px; }
+
+button {
+  border: none; }
+
+.item {
+  width: 22%;
+  text-align: center;
+  border: 2px solid #32c996;
+  margin: 0 20px 20px 0;
+  padding: 20px; }
+  .item img {
+    width: auto;
+    height: 100px; }
+  .item button.add {
+    background-color: #32c996;
+    border-radius: 5px;
+    padding: 5px 20px; }
+  .item .name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: capitalize; }
+  .item .stock {
+    white-space: nowrap; }
+    .item .stock .price {
+      font-size: 1.5em; }
+
+.item:first-child img {
+  width: 100%; }
+
+#cart {
+  background-color: #32c996;
+  position: absolute;
+  right: 0;
+  top: 59px;
+  height: 100%;
+  overflow: auto; }
+  #cart h3, #cart #items, #cart #total, #cart #empty, #cart .delete > a {
+    color: white;
+    margin-bottom: 5px; }
+  #cart h3, #cart #items {
+    text-align: center; }
+  #cart .cart_item {
+    background-color: #6fd9b5;
+    padding: 5px 10px;
+    margin-bottom: 10px; }
+    #cart .cart_item img {
+      width: 40%;
+      height: 80px;
+      margin-right: 10px;
+      float: left; }
+    #cart .cart_item button {
+      background-color: white;
+      padding: 0 10px; }
+    #cart .cart_item .cart_count {
+      margin-top: 50px; }
+      #cart .cart_item .cart_count * {
+        float: left; }
+    #cart .cart_item .cart_item_count {
+      padding: 0 10px;
+      margin-top: -5px;
+      font-size: 1.5em; }
+    #cart .cart_item .cart_item_price {
+      clear: both;
+      margin: 0;
+      font-weight: bold;
+      font-size: .9em; }
+    #cart .cart_item .delete {
+      text-align: right;
+      margin: -20px 0 0 0; }
+  #cart #total {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 10px;
+    border-top: 2px solid white; }
+  #cart a#empty {
+    font-size: .85em; }
+  #cart a#empty, #cart button#confirm {
+    float: right;
+    clear: both; }
+  #cart button#confirm {
+    background-color: #c0efdf;
+    font-weight: bold;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px 20px; }
+
+/*# sourceMappingURL=custom.css.map */
