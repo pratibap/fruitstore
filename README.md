@@ -1,1 +1,1 @@
-Simple onine store using HTML, CSS, vanilla JavaScript, JSON.
+Simple onine store using HTML, CSS, vanilla JavaScript, AJAX, and JSON.
